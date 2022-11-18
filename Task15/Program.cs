@@ -10,8 +10,8 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 int Dayweek(int num)
 {
-    if (num == 6 || num == 7) Console.WriteLine($"{num} - это выходной день");
-    else Console.WriteLine($"{num} - этот день не является выходным");
+    if (num == 6 || num == 7) Console.WriteLine($"{num} -> да");
+    else Console.WriteLine($"{num} -> нет");
 
     return num;
 }
