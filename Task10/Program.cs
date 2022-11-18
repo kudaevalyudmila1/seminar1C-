@@ -7,6 +7,7 @@
 
 Console.WriteLine("Ввeдите трехзначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
+number = Math.Abs(number);
 
 int Secondnumber(int num)
 {
