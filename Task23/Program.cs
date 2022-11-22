@@ -17,7 +17,7 @@ void Сube(int num)
     while (num1 <= num)
     {
         int cube = num1 * num1 * num1;
-        Console.WriteLine($"{num1,4} | {cube,4}");
+        Console.WriteLine($"{num1} | {cube}");
         num1++;
     }
 }
