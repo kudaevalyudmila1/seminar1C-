@@ -14,14 +14,10 @@ int count = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 
 if (count < 100000 && count > 9999)
 {
-    int num1 = 0;
-    int num5 = 0;
-    int num2 = 0;
-    int num4 = 0;
-    num1 = count / 10000;
-    num5 = count % 10;
-    num2 = count / 1000 % 10;
-    num4 = count % 100 / 10;
+    int num1 = count / 10000;
+    int num5 = count % 10;
+    int num2 = count / 1000 % 10;
+    int num4 = count % 100 / 10;
     if (num1 == num5 && num2 == num4)
         Console.WriteLine($"{count} -> да");
     else Console.WriteLine($"{count} -> нет");
