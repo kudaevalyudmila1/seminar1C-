@@ -11,7 +11,6 @@ while (number <= n)
     if (number % 2 == 0)
     {
         Console.WriteLine(number);
-    
     }
     number++;
 }

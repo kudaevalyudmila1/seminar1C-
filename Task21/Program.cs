@@ -21,7 +21,7 @@ int z2 = Convert.ToInt32(Console.ReadLine());
 
 double Pifagor(int xa, int ya, int xb, int yb, int za, int zb)
 {
-    return Math.Sqrt((xb - xa) * (xb - xa) + (yb - ya) * (yb - ya) + (zb -za) * (zb -za));
+    return Math.Sqrt((xb - xa) * (xb - xa) + (yb - ya) * (yb - ya) + (zb - za) * (zb - za));
 }
 double res = Math.Round(Pifagor(x1, y1, x2, y2, z1, z2), 2, MidpointRounding.ToZero);
 Console.WriteLine(res);
